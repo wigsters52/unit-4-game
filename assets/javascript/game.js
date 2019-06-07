@@ -17,7 +17,7 @@ updateScore(0);
 
 $('#randomScore ').html(randomNumber);
 $('#wins ').html(win);
-$('#losses ').html(win);
+$('#losses ').html(loss);
 
 //this will add a click event for each jewel
 
@@ -59,7 +59,7 @@ function winGame() {
 }
 
 function loseGame() {
-    loss = loss+1;
+    loss = loss + 1;
     alert('You have lost!');
     reset();
 

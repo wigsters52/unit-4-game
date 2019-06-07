@@ -25,26 +25,30 @@
     </div>
     <h2 id="randomScore">0</h2>
     <ul class="winloss">
-        <li id="wins">Wins:</li>
-        <li id="losses">Losses:</li>
+        <li>
+            Wins: <p id="wins"></p>
+        </li> 
+        <li>Losses: <p id="losses"></p></li>
     </ul>
     <br>
     <div class="jewels">
-        <div id="jewel1">
+        <div id="jewel1" class="jewel">
             <img src="assets/images/jewel1" alt="jewel1">
         </div>
-        <div id="jewel2">
+        <div id="jewel2" class="jewel">
             <img src="assets/images/jewel2" alt="jewel2">
         </div>
-        <div id="jewel3">
+        <div id="jewel3" class="jewel">
             <img src="assets/images/jewel3" alt="jewel3">
         </div>
-        <div id="jewel4">
+        <div id="jewel4" class="jewel">
             <img src="assets/images/jewel4" alt="jewel4">
         </div>
     </div>
-    <p class="totalScore">Your total score is:</p>
-    <h2 id="currentScore"></h2>
+    <div class="totalScore">
+    <p >Your total score is: <p id="currentScore"></p></p>
+    </div>
+    <!-- // <h2 id="currentScore"></h2> -->
     <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>
